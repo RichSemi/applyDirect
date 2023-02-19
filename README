@@ -1,0 +1,31 @@
+This is a quick and dirty script that will allow you to gather local businesses from Google places with a text search in order to find the relvant information to apply for jobs.  The script will try to "tier" them for you in the following order:
+
+
+1. Have a direct "Careers Page" on their website, so you can apply directly to the company without having to deal with really annoying websites.  We will provide a direct link to that page so the "client" can upload their resume directly. This will also ensure you are applying for positions that may not be on the big sites since many small businesses don't have the overhead / resrouces to do this kind of thing. 
+
+2. No careers page, but a phone number is provided on Google Places that can be used to reach out to the business directly during business hours. Also, by gathering all of these phones numbers you might be able to build out a call list to feed into a software program to help manage these calls. 
+
+3. No website or phone number, but at least an address.  Obviously, in todays day and age most people are very unlikely to pound the pavement and or drive to a location to try to apply for a job.  This output if for those who really need options in their local area, and address is still something.  After they apply online and call, they can always show up to the business and see if they are hiring. 
+
+
+The initial output will be a spreadsheet so the users can keep track of their own progress in their own way (i.e. colors for stages, or notes for where they left off with a specific company.) We might prototype a web front end to allow people to store their query and maintain status.  This would be an interest web/mobile application, especially with the ability to apply or call directly from their phone.  Many people in lower socioeconmic areas of society are far my competent with mobile technology than desktop technologies. 
+
+
+You'll need your own Google Places API Key - Reference article for setup of Google Places API Key and Account:
+https://medium.com/swlh/google-maps-places-api-28b8fdf28082#b0e3
+
+
+Reference article for hiding your API Key using a config.py file: 
+https://medium.com/black-tech-diva/hide-your-api-keys-7635e181a06c
+
+
+Reference article for scraping all links from a website: 
+https://medium.com/swlh/web-scraping-all-the-links-with-python-fbefa0472753
+
+
+TO DO / Possibilities: 
+
+    More Testing and Error Handling.
+    Caching and storing of these queries. 
+    Handling reruning queries after a certain amount of time if they are cached/stored. 
+    WebUI Wrapper. Keep track of your queries in the web and status of your application process. 

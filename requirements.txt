@@ -1,0 +1,4 @@
+loguru
+bs4
+pandas
+xlsxwriter
